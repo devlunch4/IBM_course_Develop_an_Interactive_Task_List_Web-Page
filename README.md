@@ -5,7 +5,7 @@
 
 In this course, you’ll practice building an interactive task list web page in a series of simulations. You’ll develop code files that lay out the structure of a web page with HTML, add styles with CSS, develop interactions with JavaScript, and then test that your web page functions as expected.
 
-##What you’ll learn
+## What you’ll learn
 After completing this course, you should be able to:
 Identify the tools and skills to develop a web page
 Review requirements and a wireframe diagram to help inform web development
@@ -14,3 +14,11 @@ Create a basic HTML structure to lay out a web page
 Use CSS to add styles to a web page
 Use JavaScript to create interactive elements on a web page   
 Perform a simple functional test on a web page
+
+
+## YouTube Link
+[![video record IBM_course_Develop_an_Interactive_Task_List_Web-Page
+](https://img.youtube.com/vi/11knfW2vQec/mqdefault.jpg)]([https://youtu.be/NcS8d-UoAXM?t=0s](https://youtu.be/11knfW2vQec))
+<br>
+
+END
