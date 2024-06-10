@@ -18,7 +18,7 @@ Perform a simple functional test on a web page
 
 ## YouTube Link
 [![video record IBM_course_Develop_an_Interactive_Task_List_Web-Page
-](https://img.youtube.com/vi/11knfW2vQec/mqdefault.jpg)]([https://youtu.be/NcS8d-UoAXM?t=0s](https://youtu.be/11knfW2vQec?t=0s))
+](https://img.youtube.com/vi/11knfW2vQec/mqdefault.jpg)](https://youtu.be/11knfW2vQec?t=0s)
 <br>
 
 END
