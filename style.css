@@ -102,6 +102,18 @@ body {
 
 /* Mobile View Adjustments for smaller screens */
 @media (max-width: 1000px) {
+    .container {
+        width: 90%; /* 모바일 화면에서 컨테이너 너비 조정 */
+        top: 80%;
+        left: 1000%;
+        background: white;
+        border-radius: 1px;
+        min-width: 450px;
+        position: absolute;
+        min-height: 100px;
+        transform: translate(-50%, -50%);
+    }
+    
     body {
         font-size: 14px; /* 모바일 화면에서 기본 글씨 크기를 작게 설정 */
     }
@@ -118,7 +130,5 @@ body {
         font-size: 1rem; /* 버튼 글씨 크기 조정 */
     }
 
-    .container {
-        width: 90%; /* 모바일 화면에서 컨테이너 너비 조정 */
-    }
+
 }
