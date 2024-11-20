@@ -128,8 +128,8 @@ body {
 
     #newtask button {
         font-size: 1rem; /* 버튼 글씨 크기 조정 */
-        width: 40%; /* 버튼 너비 40%로 조정 */
-        height: 2.5rem; /* 버튼 높이 감소 */
+        width: 30%; /* 버튼 너비 30%로 조정 */
+        height: 3rem; /* 버튼 높이 증가 */
     }
 
     .tasks {
