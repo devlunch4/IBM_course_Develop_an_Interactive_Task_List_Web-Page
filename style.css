@@ -9,6 +9,7 @@
 body {
     height: 100vh;
     background: #0F62F3;
+    font-size: 16px; /* 기본 글씨 크기 설정 */
 }
 
 #head-text {
@@ -16,6 +17,7 @@ body {
     margin-left: 10px;
     font-family: sans-serif;
     color: #0F62FE;
+    font-size: 2rem; /* 기본 폰트 크기 (16px * 2 = 32px) */
 }
 
 .container {
@@ -32,22 +34,20 @@ body {
 
 #newtask {
     position: relative;
-    padding: 30px 20px;
+    padding: 2rem 1.25rem; /* 패딩을 rem 단위로 설정 */
 }
 
 #newtask input {
-
-
     width: 75%;
-    height: 45px;
-    padding: 12px;
+    height: 2.8125rem; /* height: 45px -> rem으로 변환 (45 / 16 = 2.8125) */
+    padding: 0.75rem; /* 패딩을 rem 단위로 설정 */
     color: #111111;
     font-weight: 500;
     position: relative;
     border-radius: 5px;
     font-family: sans-serif;
-    font-size: 15px;
-    border: 2px solid •#33B1FF;
+    font-size: 0.9375rem; /* font-size: 15px -> rem으로 변환 (15 / 16 = 0.9375) */
+    border: 2px solid #33B1FF;
 }
 
 #newtask input:focus {
@@ -59,14 +59,14 @@ body {
     position: relative;
     float: right;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem; /* font-size: 16px -> rem으로 변환 (16 / 16 = 1) */
     background-color: #0F62FE;
     border: none;
     color: #FFFFFF;
     cursor: pointer;
     outline: none;
     width: 20%;
-    height: 45px;
+    height: 2.8125rem; /* height: 45px -> rem으로 변환 */
     border-radius: 5px;
     font-family: sans-serif;
 }
@@ -75,20 +75,19 @@ body {
     position: absolute;
     border-radius: 0px;
     width: 100%;
-    /* position: relative; */
     background-color: #FFFFFF;
-    padding: 30px 20px;
+    padding: 2rem 1.25rem; /* 패딩을 rem 단위로 설정 */
     margin-top: 0px;
     justify-content: space-between;
 }
 
 .tasks.overflow {
     overflow-y: auto;
-    max-height: 300px;
+    max-height: 18.75rem; /* max-height: 300px -> rem으로 변환 (300 / 16 = 18.75) */
 }
 
 .tasks::-webkit-scrollbar {
-    width: 10px;
+    width: 0.625rem; /* width: 10px -> rem으로 변환 (10 / 16 = 0.625) */
 }
 
 .tasks::-webkit-scrollbar-track {
@@ -99,4 +98,40 @@ body {
 .tasks::-webkit-scrollbar-thumb {
     background: #0D75EC;
     border-radius: 25px;
+}
+
+/* Mobile View Adjustments for smaller screens */
+@media (max-width: 768px) { /* 최대 768px로 모바일 화면 범위 수정 */
+    body {
+        font-size: 14px; /* 모바일 화면에서 기본 글씨 크기를 작게 설정 */
+    }
+
+    .container {
+        width: 90%; /* 모바일 화면에서 컨테이너 너비 90%로 조정 */
+        top: 20%;
+        left: 50%;
+        min-width: 300px; /* 모바일 화면에 맞게 최소 너비를 300px로 조정 */
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+
+    #head-text {
+        font-size: 1.5rem; /* 제목 폰트 크기 조정 */
+        margin-left: 15px; /* 좌측 여백을 조금 더 추가 */
+    }
+
+    #newtask input {
+        width: 100%; /* 모바일 화면에서 입력창 너비 100%로 조정 */
+        font-size: 1rem; /* 입력창 폰트 크기 조정 */
+    }
+
+    #newtask button {
+        font-size: 1rem; /* 버튼 글씨 크기 조정 */
+        width: 40%; /* 버튼 너비 40%로 조정 */
+        height: 3rem; /* 버튼 높이 증가 */
+    }
+
+    .tasks {
+        padding: 1rem; /* 모바일 화면에서의 여백을 줄여서 공간 활용 */
+    }
 }
