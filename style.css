@@ -101,7 +101,7 @@ body {
 }
 
 /* Mobile View Adjustments for smaller screens */
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     body {
         font-size: 14px; /* 모바일 화면에서 기본 글씨 크기를 작게 설정 */
     }
